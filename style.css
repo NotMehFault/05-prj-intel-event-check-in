@@ -1,3 +1,21 @@
+/* Attendee names under team counters */
+
+.team-names {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.attendee-name {
+  font-size: 15px;
+  color: #0071c5;
+  padding: 2px 8px;
+  width: fit-content;
+  background: none;
+  border-radius: 0;
+}
 /* Modern reset */
 * {
   margin: 0;
@@ -328,6 +346,7 @@ select {
 /* Team card colors */
 .team-card.water {
   background-color: #e8f7fc;
+  text-align: center;
 }
 .team-card.zero {
   background-color: #ecfdf3;
